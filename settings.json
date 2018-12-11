@@ -1,0 +1,81 @@
+{
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Consolas",
+    "editor.rulers": [80, 100, 120],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 140,
+    "vim.leader": "<space>",
+    "editor.tabSize": 2,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "search.exclude": {
+        "**/node_modules": true
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "s"],
+            "after": [],
+            "commands": [
+               {
+                    "command": "workbench.action.files.save"
+               }
+            ]
+        },
+        {
+            "before": ["<leader>", "p"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+        {
+            "before": ["<leader>", "o"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.openRecent"
+                }
+            ]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.debug.restart"
+                }
+            ]
+        },
+        {
+            "before": ["<tab>"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditor"
+                }
+            ]
+        }
+    ],
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "trailing-spaces.trimOnSave": true,
+    "window.newWindowDimensions": "maximized",
+    "search.useIgnoreFiles": false,
+    "extensions.ignoreRecommendations": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ]
+}
